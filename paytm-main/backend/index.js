@@ -7,7 +7,7 @@ app.use(express.json());
 
 const app = express();
 app.use("api/v1", mainRouter);
-app.use("api/v2", v2Router);
+app.listen(3000);
 
 // /api/v1/user/signup
 // /api/v1/user/signin
